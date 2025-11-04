@@ -1,0 +1,18 @@
+.container {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.body {
+  display: flex;
+}
+
+.cells {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 100px);
+}

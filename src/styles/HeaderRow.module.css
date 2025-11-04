@@ -1,0 +1,15 @@
+.headerRow {
+  display: flex;
+  background: #ffcccc;
+}
+
+.headerCell {
+  min-width: 100px;
+  min-height: 30px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
